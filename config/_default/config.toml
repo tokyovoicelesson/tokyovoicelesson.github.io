@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://tokyovoicelesson.github.io"
 staticDir = ['static',]
 languageCode = "jp"
 DefaultContentLanguage = "jp"
