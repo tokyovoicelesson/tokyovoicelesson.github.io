@@ -1,0 +1,84 @@
+baseURL = "https://example.com"
+staticDir = ['static',]
+languageCode = "jp"
+DefaultContentLanguage = "jp"
+defaultContentLanguageInSubdir = true
+title = "Website of Template"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[Languages]
+  [Languages.en]
+  title = "My blog title english"
+  weight = 1
+  contentDir = "content/en"
+  LanguageName = "English"
+
+  [Languages.jp]
+  title = "Mein blog japanese"
+  description = "nihon blog"
+  weight = 2
+  contentDir = "content/jp"
+  LanguageName = "Japanese"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[[Languages.en.menu.main]]
+url    = "/en/"
+identifier = "home"
+name   = "Home"
+weight = 100
+
+[[Languages.en.menu.main]]
+name = "Posts"
+weight = 200
+identifier = "posts"
+url = "/en/posts/"
+
+[[Languages.en.menu.main]]
+name = "About"
+weight = 300
+identifier = "about"
+url = "/en/about/"
+
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
