@@ -2,72 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/jp/posts/image-template/</loc>
+    <loc>https://tokyovoicelesson.github.io/jp/posts/image-template/</loc>
     <lastmod>2022-01-11T18:27:10+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/jp/</loc>
-    <lastmod>2022-01-11T18:27:10+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://example.com/jp/"
-                />
-  </url><url>
-    <loc>https://example.com/jp/posts/</loc>
+    <loc>https://tokyovoicelesson.github.io/jp/</loc>
     <lastmod>2022-01-11T18:27:10+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/posts/"
+                href="https://tokyovoicelesson.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://example.com/jp/posts/"
+                href="https://tokyovoicelesson.github.io/jp/"
                 />
   </url><url>
-    <loc>https://example.com/jp/posts/test/</loc>
+    <loc>https://tokyovoicelesson.github.io/jp/posts/</loc>
+    <lastmod>2022-01-11T18:27:10+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tokyovoicelesson.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp"
+                href="https://tokyovoicelesson.github.io/jp/posts/"
+                />
+  </url><url>
+    <loc>https://tokyovoicelesson.github.io/jp/posts/test/</loc>
     <lastmod>2022-01-08T17:30:08+09:00</lastmod>
   </url><url>
-    <loc>https://example.com/jp/categories/</loc>
+    <loc>https://tokyovoicelesson.github.io/jp/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/categories/"
+                href="https://tokyovoicelesson.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://example.com/jp/categories/"
+                href="https://tokyovoicelesson.github.io/jp/categories/"
                 />
   </url><url>
-    <loc>https://example.com/jp/series/</loc>
+    <loc>https://tokyovoicelesson.github.io/jp/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/series/"
+                href="https://tokyovoicelesson.github.io/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://example.com/jp/series/"
+                href="https://tokyovoicelesson.github.io/jp/series/"
                 />
   </url><url>
-    <loc>https://example.com/jp/tags/</loc>
+    <loc>https://tokyovoicelesson.github.io/jp/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/en/tags/"
+                href="https://tokyovoicelesson.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp"
-                href="https://example.com/jp/tags/"
+                href="https://tokyovoicelesson.github.io/jp/tags/"
                 />
   </url>
 </urlset>
