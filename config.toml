@@ -1,0 +1,4 @@
+baseURL = 'https://tokyovoicelessons.github.io/'
+languageCode = 'en-us'
+title = "Tokyo Voice Lessons"
+theme = "ananke"
