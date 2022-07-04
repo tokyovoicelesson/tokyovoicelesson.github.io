@@ -24,7 +24,7 @@ listDateFormat = "2/1/2006"
 # Read More links for truncated summaries
 # readMore = true
 # postSectionName = "blog"
-displayMode = "dark"
+displayMode = "light"
 disableThemeSwitcher = true
 contentratio = 0.8
 fullPostContent = true

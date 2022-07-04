@@ -14,28 +14,7 @@
   </a>
   <nav>
     <ul class="nav__list" id="navMenu">
-      <div class="nav__links">
-        {{ $url := .RelPermalink }}
-        {{ range .Site.Menus.main }}
-          {{ $active := eq $url .URL }}
-          <li>
-            <a
-              {{ if $active }}
-                class="current"
 
-              {{ end }}
-              href="{{ .URL }}"
-              {{ if strings.HasPrefix .URL "http" }}
-                target="_blank" rel="noopener noreferrer"
-
-              {{ end }}
-              title="{{ .Title }}"
-              >{{ .Name }}</a
-            >
-          </li>
-
-        {{ end }}
-      </div>
       <ul>
         {{ if and .IsTranslated .Site.IsMultiLingual }}
           <li>

@@ -1,9 +1,9 @@
 baseURL = "https://tokyovoicelesson.github.io"
 staticDir = ['static',]
-languageCode = "jp"
-DefaultContentLanguage = "jp"
+languageCode = "en"
+DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-title = "Website of Template"
+title = "Tokyo Voice Lesson"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
