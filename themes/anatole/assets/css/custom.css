@@ -1,3 +1,45 @@
+html * {
+   color: black;
+   font-family: "playfair display";
+   font-weight: 400;
+}
+
+#header {
+	color: black;
+}
+
+#header h1 {
+	font-size: 135px;
+	text-align: center;
+	margin: 0;
+}
+
+#header h2 {
+	font-size: 40px;
+	text-align: center;
+	margin: 0;
+}
+
+#header h3 {
+	margin: 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+#about {
+	margin: auto;
+	width: 50%;
+}
+
+#about h2 {
+	font-size: 40px;
+}
+
+#about p{
+	font-style: italic;
+	font-style: 18px;
+}
+
 .grid {
 	display: flex;
 	width:  inherit;
