@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){var e,t,n=document.querySelector("footer"),s=(new Date).getFullYear();n.innerHTML="TEMPLATE "+s,e=document.querySelector("main"),t="<div class='main_custom_footer'>MY MAIN FOOTER DIV CONTENT</div>",e.innerHTML+=t})

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Mein blog japanese</title>
+    <title>Posts on 東京ボイスレッスン</title>
     <link>https://tokyovoicelesson.github.io/jp/posts/</link>
-    <description>Recent content in Posts on Mein blog japanese</description>
+    <description>Recent content in Posts on 東京ボイスレッスン</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp</language>
+    <language>en</language>
     <lastBuildDate>Tue, 11 Jan 2022 18:27:10 +0900</lastBuildDate><atom:link href="https://tokyovoicelesson.github.io/jp/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Template</title>

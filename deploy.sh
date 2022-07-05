@@ -1,2 +1,2 @@
-hugo --config config/_default/config.toml 
+hugo serve
 mv public docs
