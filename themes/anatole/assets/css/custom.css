@@ -40,6 +40,57 @@ html * {
 	font-style: 18px;
 }
 
+#services {
+	width: 980px;
+}
+
+#services img {
+	width: 293px;
+	height: 132px;
+}
+
+#services h3 {
+	padding: 0 0 5px 0;
+}
+
+#services .row {
+	text-align: center;
+}
+
+#services .row .pp {
+	border:  1px solid gray;
+	width:  295px;
+	margin: 20px;
+}
+
+#services .row p {
+	font: normal normal normal 16px/1.75em didot-w01-italic;
+	margin: 0 auto;
+	width: 200px;
+	padding: 20px;
+	border-top: 1px solid gray;
+}
+
+#overview {
+	width: 100%;
+}
+
+#overview .col {
+	width:  19%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+#overview h2 {
+	width: 100%;
+}
+
+#youtube iframe{
+	margin: 0 auto;
+	display: block;
+}
+
 .grid {
 	display: flex;
 	width:  inherit;
@@ -48,6 +99,10 @@ html * {
 
 .thumbnail {
 	height: 100px;
+}
+
+#main {
+	width: 1080px;
 }
 
 .main_custom_footer {

@@ -22,17 +22,16 @@ pygmentsCodefencesGuessSyntax = true
 
 [Languages]
   [Languages.en]
-  title = "My blog title english"
+  title = "Tokyo Voice Lessons"
   weight = 1
   contentDir = "content/en"
   LanguageName = "English"
 
   [Languages.jp]
-  title = "Mein blog japanese"
-  description = "nihon blog"
+  title = "東京ボイスレッスン"
   weight = 2
   contentDir = "content/jp"
-  LanguageName = "Japanese"
+  LanguageName = "日本語"
 
 [markup]
     [markup.goldmark]
