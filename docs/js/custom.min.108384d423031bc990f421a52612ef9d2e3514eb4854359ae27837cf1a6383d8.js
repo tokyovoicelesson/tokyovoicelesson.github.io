@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var e,t,n,s=document.querySelector("footer"),o=(new Date).getFullYear();s.innerHTML="",e=document.querySelector("main"),t="©"+o+" J-POP karaoke",n="<div class='main_custom_footer'>"+t+"</div>",e.innerHTML+=n})
