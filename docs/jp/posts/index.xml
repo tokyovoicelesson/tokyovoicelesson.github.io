@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 東京ボイスレッスン</title>
-    <link>https://tokyovoicelesson.github.io/jp/posts/</link>
+    <link>https://tokyovoicelessons.com/jp/posts/</link>
     <description>Recent content in Posts on 東京ボイスレッスン</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Jan 2022 18:27:10 +0900</lastBuildDate><atom:link href="https://tokyovoicelesson.github.io/jp/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jan 2022 18:27:10 +0900</lastBuildDate><atom:link href="https://tokyovoicelessons.com/jp/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Template</title>
-      <link>https://tokyovoicelesson.github.io/jp/posts/image-template/</link>
+      <link>https://tokyovoicelessons.com/jp/posts/image-template/</link>
       <pubDate>Tue, 11 Jan 2022 18:27:10 +0900</pubDate>
       
-      <guid>https://tokyovoicelesson.github.io/jp/posts/image-template/</guid>
+      <guid>https://tokyovoicelessons.com/jp/posts/image-template/</guid>
       
         <description>Check out my newest cool wallpaper</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Test</title>
-      <link>https://tokyovoicelesson.github.io/jp/posts/test/</link>
+      <link>https://tokyovoicelessons.com/jp/posts/test/</link>
       <pubDate>Sat, 08 Jan 2022 17:30:08 +0900</pubDate>
       
-      <guid>https://tokyovoicelesson.github.io/jp/posts/test/</guid>
+      <guid>https://tokyovoicelessons.com/jp/posts/test/</guid>
       
         <description>This is a test post</description>
       

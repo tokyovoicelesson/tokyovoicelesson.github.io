@@ -1,4 +1,4 @@
-baseURL = "https://tokyovoicelesson.github.io"
+baseURL = "https://tokyovoicelessons.com"
 staticDir = ['static',]
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -24,7 +24,7 @@ pygmentsCodefencesGuessSyntax = true
   [Languages.en]
   title = "Tokyo Voice Lessons"
   weight = 1
-  contentDir = "content/en"
+  contentDir = "content"
   LanguageName = "English"
 
   [Languages.jp]
