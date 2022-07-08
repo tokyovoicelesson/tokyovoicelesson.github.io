@@ -68,6 +68,11 @@ html * {
 	text-align: center;
 }
 
+#checks {
+	width: 980px;
+	text-align: center;
+}
+
 #services .row .pp {
 	border:  1px solid gray;
 	width:  295px;
