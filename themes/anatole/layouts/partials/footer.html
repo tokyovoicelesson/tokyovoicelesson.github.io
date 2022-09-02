@@ -1,4 +1,4 @@
-<footer class="footer footer--{{ .footerClassModifier }}">
+<footer class="footer">
   <div class="by_farbox">
     <ul class="footer__list">
       <li class="footer__item">
@@ -13,21 +13,6 @@
 
         {{ end }}
       </li>
-      {{ range .context.Site.Menus.footer }}
-        <li class="footer__item">
-          <a
-            href="{{ .URL }}"
-            {{ if strings.HasPrefix .URL "http" }}
-              target="_blank" rel="noopener noreferrer"
-
-            {{ end }}
-            title="{{ .Title }}"
-          >
-            {{ .Name }}
-          </a>
-        </li>
-
-      {{ end }}
     </ul>
   </div>
 </footer>

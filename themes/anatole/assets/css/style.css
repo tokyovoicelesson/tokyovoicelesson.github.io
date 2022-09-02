@@ -1133,7 +1133,7 @@ a.btn {
   }
 
   .footer--base {
-    display: none;
+    display: block;
   }
 
   .box {

@@ -6,30 +6,30 @@ html * {
 
 #header {
 	color: black;
+	width: 100%;
+	text-align: center;
+	display: block;
 }
 
 #header h1 {
-	font-size: 135px;
-	text-align: center;
+	font-size: 90px;
 	margin: 0;
 }
 
 #header h2 {
 	font-size: 40px;
-	text-align: center;
 	margin: 0;
 }
 
 #header h3 {
 	margin: 0;
 	font-size: 18px;
-	text-align: center;
 }
 
 #menu {
-	width: 600px;
-	margin: 0 auto;
-	padding: 100px 30px;
+	width:  100%;
+	text-align: center;
+	padding: 20px 0;
 }
 
 #menu a {
@@ -37,9 +37,10 @@ html * {
 	text-decoration: none;
 }
 
-#about {
+#about, #contact {
+	text-align: center;
 	margin: auto;
-	width: 50%;
+	width: 100%;
 }
 
 #about h2 {
@@ -52,7 +53,7 @@ html * {
 }
 
 #services {
-	width: 980px;
+	width: 100%;
 	text-align: center;
 }
 
@@ -70,7 +71,7 @@ html * {
 }
 
 #checks {
-	width:  980px;
+	width:  100%;
 	text-align: center;
 }
 
@@ -106,24 +107,28 @@ html * {
 }
 
 #contact {
-	width: 1000px;
-	height: 500px;
+	padding: 0px;
 }
 
-#contact .row .ccc  {
-	display: grid;
-	position: static;
-	text-align: center;
-	padding: 180px 0;
+#contact ul {
+	list-style-type: none; /* Remove bullets */
+	margin: 0;
+	padding: 0px;
+	display: inline-block;
 }
 
-#contact .row .cc p {
+#contact ul li {
+	float:  left;
+	padding: 10px;
+}
+
+#contact .cc p {
 	width: 100%;
 	margin: 10px;
 	text-align: center;
 }
 
-#contact .row .cc {
+#contact .cc {
   display: flex;
   align-items: center;
 }
@@ -131,7 +136,7 @@ html * {
 #bottom {
 	text-align: center;
 	padding: 10px;
-	width: 1000px;
+	width: 100%;
 }
 
 .grid {
@@ -144,14 +149,26 @@ html * {
 	height: 100px;
 }
 
-#main {
-	width: 1080px;
+main {
+	margin: 0 auto;
+}
+
+.content {
+	margin: 0;
+}
+
+.content footer {
+	display:  none;
+}
+
+footer {
+	font-size: 13px;
+	text-align: center;
 }
 
 .main_custom_footer {
 	padding: 12px;
 	text-align: center;
-	margin-bottom: 100px;
 	display: block;
-	width: 1000px;
+	width: 100%;
 }

@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div id="header">
 
-<h1>J-POP</h1>
-<h2>KARAOKE class / voice training / vocal lesson</h2>
+<h1>Tokyo Voice Lessons</h1>
+<h2>Teaching of singing, Voice training, Karaoke class</h2>
 <h3>accent ,  articulation , vocalization , pitch , rhythm, stagings and more</h3>
 
 
@@ -15,7 +15,7 @@
 
 <div id="main">
 
-<img src="{{ .Site.BaseURL }}/images/mike.webp" alt="マイクロフォン" style="width: 1198px; height: 450px; object-fit: cover; object-position: 50% 50%;">
+<img src="{{ .Site.BaseURL }}/images/mike.webp" alt="マイクロフォン" style="width: 1198px; height: 450px; object-fit: cover;">
 
 <div id="about">
 <h2>About Me</h2>
@@ -73,7 +73,7 @@
 
 </div>
 
-
+<!-- 
 <div id="checks">
 
 <p class="check">CHECK 1</br>The lessons are basically conducted in Japanese, but a little English can be used.</p>
@@ -81,12 +81,12 @@
 <p class="check">CHECK 3</br>We will use the studios in Shibuya, Shinjuku, and Ikebukuro, but please contact us if you have any requests for the area.</p>
 <p class="check">CHECK 4</br>We will reserve the studio as soon as the payment is confirmed.</p>
 <p class="check">CHECK 5</br>100% refund 10 days in advance (excluding transfer fee) Half price refund until 10th (excluding transfer fee) 3 days ago, no refund</p>
-</div>
+</div> -->
 
 <div id="overview" class="container">
   <div class="row">
     <div class="col-sm-2"><div class="oo"><h2>Language</h2><p>The lessons are basically conducted in Japanese, but a little English can be used.</p></div></div>
-    <div class="col-sm-2"><div class="oo"><h2>Payment</h2><p>PayPal</p></div></div>
+    <div class="col-sm-2"><div class="oo"><h2>Payment</h2><p>Payment is by PayPal only</p></div></div>
     <div class="col-sm-2"><div class="oo"><h2>Place</h2><p>We will use the studios in Shibuya, Shinjuku, and Ikebukuro, but please contact us if you have any requests for the area.</p></div></div>
     <div class="col-sm-2"><div class="oo"><h2>Booking</h2><p>By email @gmail.com We will reserve the studio as soon as the payment is confirmed. </p></div></div>
     <div class="col-sm-2"><div class="oo"><h2>Cancel</h2><p>100% refund 10 days in advance (excluding transfer fee). Half price refund until 10th (excluding transfer fee). 3 days before, no refund</p></div></div>
@@ -102,15 +102,20 @@
 </div>
 
 <div id="contact">
-<div class="row">
-    <div class="col-sm-6"><div class="ccc"><h2>Contact</h2><p>todo@gmail.com<br/>Feel free to contact</p></div></div>
-    <div class="col-sm-6"><div class="cc"><img src="{{ .Site.BaseURL }}/images/contact.webp" alt="Private lesson"></div></div>
-  </div>
-</div>
 
-<div id="bottom">
-<h3>J-POP</h3>
-<h3>KARAOKE class</h3>
+    <div class="ccc"><h2>Contact</h2>
+                <ul class="social-links">
+                  {{ range $item := .Site.Params.socialIcons }}
+                    <li>
+                      <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}" title="{{ $item.title }}">
+                        <i class="{{ $item.icon }} fa-2x" aria-hidden="true"></i>
+                      </a>
+                    </li>
+
+                  {{ end }}
+                </ul>
+      <p>Feel free to contact</p></div>
+    
 </div>
 
 {{- partial "footer.html" -}}

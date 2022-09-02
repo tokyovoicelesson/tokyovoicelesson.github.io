@@ -1,6 +1,6 @@
 title = "I'm Template TITLE"
 author = "Reina"
-copyright = "©{{ YEAR }} J-POP karaoke"
+copyright = "{{ YEAR }} Tokyo Voice Lessons"
 description = "Call me Template"
 profilePicture = "images/profile1.jpeg"
 keywords = ""
@@ -41,77 +41,19 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
-[[socialIcons]]
-icon = "fab fa-linkedin"
-title = "Linkedin"
-url = "https://de.linkedin.com/"
-
-[[socialIcons]]
-icon = "fab fa-github"
-title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
 
 [[socialIcons]]
 icon = "fab fa-instagram"
 title = "instagram"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fab fa-kickstarter"
-title = "kickstarter"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fab fa-patreon"
-title = "patreon"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fab fa-reddit"
-title = "reddit"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fab fa-snapchat"
-title = "snapchat"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fab fa-twitch"
-title = "snapchat"
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/RENAKOMATSU_KOMATSU"
 
 [[socialIcons]]
 icon = "fab fa-twitter"
 title = "twitter"
-url = "https://www.instagram.com/"
+url = "https://www.twitter.com/RENAKOMATSU"
 
-[[socialIcons]]
-icon = "fab fa-youtube"
-title = "youtube"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fab fa-weixin"
-title = "wechat"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fab fa-line"
-title = "line"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fab fa-paypal"
-title = "paypal"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
-icon = "fas fa-hand-holding-usd"
-title = "onlyfan"
-url = "todo only"
 
 [[socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:mail@example.com"
+url = "mailto:contact@tokyovoicelessons.com"
