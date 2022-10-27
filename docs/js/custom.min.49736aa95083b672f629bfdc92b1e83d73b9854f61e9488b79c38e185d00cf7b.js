@@ -1,3 +1,0 @@
-document.addEventListener("DOMContentLoaded",function(){var e,n,s,o,i,a,r,c,h=document.querySelector("footer"),u=(new Date).getFullYear();h.innerHTML="",s="contact@tokyovoicelessons.com",o="Schedule A Lesson";const t=new Date;t.setDate(t.getDate()+7);let d=(1+t.getMonth()).toString().padStart(2,"0"),l=t.getDate().toString().padStart(2,"0");r=d+"/"+l+"/"+u,c=`Dear Rena-sensei:
-
- I would like to schedule a lesson for `+r+" . ",e=`mailto:${s}?subject=${o}&body=${c}`,i=document.querySelector("#pemail"),n=document.querySelector("#g2email"),a=document.querySelector("#g3email"),i.href=e+"I want a private lesson.",n.href=e+"I want a group lesson for 2.",a.href=e+"I want a group lesson for 3 or more."})

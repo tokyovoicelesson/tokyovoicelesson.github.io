@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var year = new Date().getFullYear();
   side_footer.innerHTML = "";
 
-  var mail_addr = 'contact@tokyovoicelessons.com'
+  var mail_addr = 'tokyo.anime.song@gmail.com'
   var subject = 'Schedule A Lesson'
 
   const date = new Date();
