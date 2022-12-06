@@ -90,7 +90,12 @@ html * {
 }
 
 #overview {
-	width: 100%;
+	width: 1050px;
+	margin: 0 auto;
+}
+
+#overview .col-sm-2 {
+	width: 20%;
 }
 
 #overview h2 {
